@@ -5,17 +5,17 @@
 
                 <!-- Logo -->
                 <a href="#hero" class="nav-logo" aria-label="{{ site.name }}">
-                    <img src="/img/new_logo.webp" alt="{{ t.nav.logoAlt }}" height="40" width="160">
+                    {% logoImage "img/new_logo.webp", t.nav.logoAlt %}
                 </a>
 
                 <!-- Links & Language -->
-                <ul id="nav-menu" role="menubar">
-                    <li role="none"><a href="#about" role="menuitem">{{ t.nav.about }}</a></li>
-                    <li role="none"><a href="#services" role="menuitem">{{ t.nav.services }}</a></li>
-                    <li role="none"><a href="#insurance" role="menuitem">{{ t.nav.insurance }}</a></li>
-                    <li role="none"><a href="#contact" role="menuitem">{{ t.nav.contact }}</a></li>
+                <ul id="nav-menu">
+                    <li><a href="#about">{{ t.nav.about }}</a></li>
+                    <li><a href="#services">{{ t.nav.services }}</a></li>
+                    <li><a href="#insurance">{{ t.nav.insurance }}</a></li>
+                    <li><a href="#contact">{{ t.nav.contact }}</a></li>
                     
-                    <li role="none" class="nav-lang-item">
+                    <li class="nav-lang-item">
                         <div class="lang-switcher" role="group" aria-label="Language">
                             <a href="/ru/"{% if lang == "ru" %} class="active" aria-current="page"{% endif %} aria-label="Русский">RU</a>
                             <a href="/en/"{% if lang == "en" %} class="active" aria-current="page"{% endif %} aria-label="English">EN</a>

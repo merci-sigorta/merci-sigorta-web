@@ -374,7 +374,7 @@ p {
 
 #nav-menu .lang-switcher a.active {
   background: var(--white);
-  color: var(--teal-dark);
+  color: var(--teal-deeper);
   border-color: var(--white);
 }
 
@@ -491,6 +491,8 @@ p {
 .hero-text h1 {
   color: var(--white);
   margin-bottom: 1.1rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-tagline {
@@ -1228,9 +1230,19 @@ footer {
     align-items: center;
   }
 
+  .hero-services-grid {
+    max-width: 320px;
+    gap: 1rem 0.5rem;
+  }
+
   .hero-bubble-icon {
     width: 57px;
     height: 57px;
+  }
+
+  .hero-bubble-label {
+    font-size: 0.61rem;
+    max-width: 72px;
   }
 
   .nav-logo img {

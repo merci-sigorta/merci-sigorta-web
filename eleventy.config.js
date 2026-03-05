@@ -8,7 +8,6 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/fonts");
     eleventyConfig.addPassthroughCopy("src/img/favicon.ico");
-    eleventyConfig.addPassthroughCopy("src/img/new_logo.webp");
 
     /* ── CSS Minification Filter ── */
     eleventyConfig.addFilter("cssmin", function (code) {
@@ -48,6 +47,38 @@ export default function (eleventyConfig) {
             if (loading === "eager") {
                 imageAttributes.fetchpriority = "high";
             }
+
+            return Image.generateHTML(metadata, imageAttributes);
+        }
+    );
+
+    /* ── Logo Image Shortcode (smaller widths) ── */
+    eleventyConfig.addShortcode(
+        "logoImage",
+        async function (src, alt, sizes = "320px") {
+            const inputPath = path.join("src", src);
+
+            const metadata = await Image(inputPath, {
+                widths: [320, 640],
+                formats: ["avif", "webp"],
+                outputDir: "./docs/img/",
+                urlPath: "/img/",
+                filenameFormat: function (id, src, width, format) {
+                    const name = path.basename(src, path.extname(src));
+                    return `${name}-${width}w.${format}`;
+                },
+                cacheOptions: {
+                    duration: "1y",
+                },
+            });
+
+            const imageAttributes = {
+                alt,
+                sizes,
+                loading: "eager",
+                decoding: "auto",
+                fetchpriority: "high",
+            };
 
             return Image.generateHTML(metadata, imageAttributes);
         }
