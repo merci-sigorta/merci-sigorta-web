@@ -59,4 +59,10 @@ export default {
         { hreflang: "en-AZ", url: "/en/" },
         { hreflang: "x-default", url: "/ru/" },
     ],
+
+    // Developer
+    developer: {
+        name: "Süleyman Kara",
+        url: "https://www.linkedin.com/in/suleymankara/"
+    }
 };

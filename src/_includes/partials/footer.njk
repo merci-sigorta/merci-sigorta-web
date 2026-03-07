@@ -74,6 +74,7 @@
             <div class="footer-bottom">
                 <p class="footer-copy">{{ t.footer.copyright }}</p>
                 <p class="footer-copy">{{ t.footer.location }}</p>
+                <p class="footer-developer">{{ t.footer.developerLink | replace("%URL%", site.developer.url) | replace("%NAME%", site.developer.name) | safe }}</p>
             </div>
 
         </div>

@@ -104,6 +104,7 @@
     "footer": {
         "brandName": "Sigorta & Danışmanlık",
         "location": "Erdemli, Mersin — Türkiye",
-        "copyright": "© 2026 Merci Sigorta & Danışmanlık"
+        "copyright": "© 2026 Merci Sigorta & Danışmanlık",
+        "developerLink": "<a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a> tarafından tasarlandı."
     }
 }

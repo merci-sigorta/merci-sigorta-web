@@ -104,6 +104,7 @@
     "footer": {
         "brandName": "Страховая Компания",
         "location": "Эрдемли, Мерсин — Турция",
-        "copyright": "© 2026 Merci Sigorta & Danışmanlık"
+        "copyright": "© 2026 Merci Sigorta & Danışmanlık",
+        "developerLink": "Дизайн от <a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a>"
     }
 }
