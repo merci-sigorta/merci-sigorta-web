@@ -13,7 +13,7 @@ Merci Sigorta & Danışmanlık kurumsal web sitesi. [Eleventy (11ty)](https://ww
 Proje performans, SEO ve erişilebilirlik açısından sıkı şekilde optimize edilmiştir. 
 
 ### 📱 Mobil
-![Performance](https://img.shields.io/badge/Performance-100-brightgreen?style=flat-square)
+![Performance](https://img.shields.io/badge/Performance-94-brightgreen?style=flat-square)
 ![Accessibility](https://img.shields.io/badge/Accessibility-100-brightgreen?style=flat-square)
 ![Best_Practices](https://img.shields.io/badge/Best_Practices-100-brightgreen?style=flat-square)
 ![SEO](https://img.shields.io/badge/SEO-100-brightgreen?style=flat-square)
