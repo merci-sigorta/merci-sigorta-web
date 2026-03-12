@@ -41,12 +41,16 @@
         "addressRegion": "{{ site.address.region }}",
         "addressCountry": "{{ site.address.country }}"
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": {{ site.openingHours.days | dump | safe }},
-        "opens": "{{ site.openingHours.opens }}",
-        "closes": "{{ site.openingHours.closes }}"
-      },
+      "openingHoursSpecification": [
+        {%- for group in site.openingHours %}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": {{ group.days | dump | safe }},
+          "opens": "{{ group.opens }}",
+          "closes": "{{ group.closes }}"
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ],
       "sameAs": [
         "{{ site.instagram }}",
         "{{ site.facebook }}",

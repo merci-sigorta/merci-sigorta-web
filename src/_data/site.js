@@ -14,7 +14,7 @@ export default {
     telegram: "https://t.me/mercisigorta",
 
     // Map
-    mapUrl: "https://maps.google.com/maps?q=Erdemli+Mersin+Turkey",
+    mapUrl: "https://maps.app.goo.gl/R2tp9Xoad1htnfNA7",
 
     // Address
     address: {
@@ -31,12 +31,19 @@ export default {
     name: "Merci Sigorta & Danışmanlık",
     logoUrl: "/img/new_logo.webp",
 
-    // Opening Hours
-    openingHours: {
-        days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "18:00",
-    },
+    // Opening Hours (Schema.org uyumlu — birden fazla grup desteklenir)
+    openingHours: [
+        {
+            days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            opens: "09:00",
+            closes: "18:00",
+        },
+        {
+            days: ["Saturday"],
+            opens: "09:00",
+            closes: "16:00",
+        },
+    ],
 
     // Languages & target countries
     defaultLang: "ru",
