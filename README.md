@@ -1,4 +1,4 @@
-# Merci Sigorta & Consultancy
+# Merci Insurance & Consultancy
 
 The corporate website for Merci Sigorta & Consultancy. Built with [Eleventy](https://www.11ty.dev/) v3, this is a fast, static, and multilingual project. 
 Live site: [www.mercisigorta.com](https://www.mercisigorta.com)
