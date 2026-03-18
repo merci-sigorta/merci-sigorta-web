@@ -10,7 +10,7 @@ export default {
 
     // Social Media
     instagram: "https://instagram.com/mercisigorta",
-    facebook: "https://facebook.com/mercisigorta",
+    facebook: "https://facebook.com/mercisigortadanismanlik",
     telegram: "https://t.me/mercisigorta",
 
     // Map
