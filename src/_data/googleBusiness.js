@@ -51,9 +51,9 @@ export default async function () {
 
         let photos = [];
         if (json.photos) {
-            const slicedPhotos = json.photos.slice(0, 4);
+            const slicedPhotos = json.photos.filter((_, index) => (index >= 0 && index < 2) || (index >= 5 && index < 7));
             const photoUrls = await Promise.all(slicedPhotos.map(p => processPhotoUrl(p.name)));
-            photos = photoUrls.map(url => ({ url })).filter(p => p.url);
+            photos = photoUrls.map(url => ({ url })).filter(p => p.url);const slicedPhotos = json.photos.slice(0, 4);
         }
 
         const now = new Date();
