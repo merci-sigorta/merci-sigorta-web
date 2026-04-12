@@ -29,14 +29,14 @@
     document.querySelectorAll('#nav-menu a').forEach(a => a.addEventListener('click', closeNav));
 
     /* ── STICKY NAV ── */
-    window.addEventListener('scroll', () => {
+    function updateNavbar() {
         navbar.classList.toggle('scrolled', window.scrollY > 60);
         if (navMenu.classList.contains('open')) {
             navMenu.style.setProperty('--current-nav-h', navbar.offsetHeight + 'px');
         }
-    },
-        { passive: true }
-    );
+    }
+    window.addEventListener('scroll', updateNavbar, { passive: true });
+    updateNavbar(); // Sayfa yüklendiğinde mevcut scroll pozisyonunu hemen uygula
 
     /* ── SCROLL ANIMATIONS ── */
     const observer = new IntersectionObserver(entries => {
