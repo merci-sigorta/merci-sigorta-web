@@ -1,6 +1,6 @@
 # Merci Insurance & Consultancy
 
-The corporate website for Merci Sigorta & Consultancy. Built with [Eleventy](https://www.11ty.dev/) v3, this is a fast, static, and multilingual project. 
+The corporate website for Merci Sigorta & Consultancy. Built with [Eleventy](https://www.11ty.dev/) v3, this is a static and multilingual project. 
 Live site: [www.mercisigorta.com](https://www.mercisigorta.com)
 
 ![Merci Sigorta — Ana Sayfa](assets/screenshot.png)
@@ -10,7 +10,7 @@ Live site: [www.mercisigorta.com](https://www.mercisigorta.com)
 - **Tech Stack:** Eleventy v3 (SSG), Nunjucks, and raw CSS/JS.
 - **Performance:** Highly optimized with minified assets, responsive images (AVIF/WebP), and comprehensive SEO setup.
 - **Data Integration:** Statically fetches Google Business reviews at build-time.
-- **Deployment:** Hosted on GitHub Pages, built daily via GitHub Actions.
+- **Deployment:** Hosted on GitHub Pages, built weekly via GitHub Actions.
 
 ## Getting Started
 
