@@ -594,7 +594,7 @@ p {
 .hero-bubble-icon {
   width: 96px;
   height: 96px;
-  border-radius: 50%;
+  border-radius: 24px;
   background: var(--white);
   display: flex;
   align-items: center;
@@ -911,7 +911,7 @@ footer {
 /* Top: Logo + Address + Contact */
 .footer-top {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   gap: 2rem;
@@ -986,15 +986,16 @@ footer {
 .footer-circles {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: flex-end;
+  gap: 0.6rem;
   flex-wrap: wrap;
+  margin-top: 0.8rem;
 }
 
 .circle-btn {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-md);
   background: rgba(255, 255, 255, .1);
   border: 1.5px solid rgba(255, 255, 255, .2);
   display: flex;
@@ -1008,18 +1009,33 @@ footer {
 .circle-btn:hover {
   background: rgba(255, 255, 255, .22);
   border-color: rgba(255, 255, 255, .5);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
 }
 
 .circle-btn svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .circle-btn--wa:hover {
   background: #25d366;
   border-color: #25d366;
+}
+
+.circle-btn--ig:hover {
+  background: #e4405f;
+  border-color: #e4405f;
+}
+
+.circle-btn--fb:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+}
+
+.circle-btn--tg:hover {
+  background: #0088cc;
+  border-color: #0088cc;
 }
 
 /* Bottom: Copyright */
@@ -1152,11 +1168,11 @@ footer {
 
 @media (max-width: 850px) {
   .section-pad {
-    padding: 64px 0;
+    padding: 48px 0;
   }
 
   .section-pad-sm {
-    padding: 48px 0;
+    padding: 36px 0;
   }
 
   /* Hero */
@@ -1224,8 +1240,33 @@ footer {
   }
 
   /* Services */
+  .services-header {
+    margin-bottom: 2.5rem;
+  }
+
   .services-grid {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5px;
+    background: var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .service-card {
+    padding: 1.5rem 1.1rem;
+    border: none;
+    border-radius: 0;
+  }
+
+  .service-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .service-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   /* Footer */
@@ -1265,17 +1306,19 @@ footer {
   }
 
   .circle-btn {
-    width: 42px;
-    height: 42px;
+    width: 25px;
+    height: 25px;
   }
 
   .circle-btn svg {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
   }
 
   .footer-circles {
-    gap: .7rem;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
   }
 }
 
@@ -1287,7 +1330,16 @@ footer {
   }
 
   .services-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .service-card p {
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
 
   .about-stats {
@@ -1319,16 +1371,17 @@ footer {
   }
 
   .circle-btn {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 
   .circle-btn svg {
-    width: 16px;
-    height: 16px;
+    width: 22px;
+    height: 22px;
   }
 
   .footer-circles {
-    gap: .55rem;
+    gap: 0.4rem;
+    justify-content: center;
   }
 }

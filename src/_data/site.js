@@ -20,18 +20,17 @@ export default {
     address: {
         street: "Çeşmeli Mah. Sahil 1 Cad.",
         building: "Liparis 5 Sitesi No: 6NA",
-        locality: "Erdemli / Mersin, Türkiye",
-        // Schema.org fields
-        city: "Erdemli",
-        region: "Mersin",
+        locality: "Mersin / Erdemli, Türkiye",
+        city: "Mersin",
+        region: "Erdemli",
         country: "TR",
     },
 
     // Business
-    name: "Merci Sigorta & Danışmanlık",
+    name: "Merci Sigorta",
     logoUrl: "/img/new_logo.webp",
 
-    // Opening Hours (Schema.org uyumlu — birden fazla grup desteklenir)
+    // Opening Hours
     openingHours: [
         {
             days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -46,13 +45,12 @@ export default {
     ],
 
     // Languages & target countries
-    defaultLang: "ru",
-    languages: ["ru", "tr", "en"],
     langUrls: {
         ru: "/ru/",
         tr: "/tr/",
         en: "/en/",
     },
+
     // hreflang mappings: lang-country → language URL
     hreflangMap: [
         { hreflang: "ru", url: "/ru/" },

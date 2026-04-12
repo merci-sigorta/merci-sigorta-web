@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Merci Insurance | Insurance & Consulting in Mersin Erdemli",
+        "title": "Merci Insurance | Mersin Erdemli",
         "description": "Insurance, real estate, residency, legal consulting and sworn translation services in Mersin Erdemli, Turkey. Expert team, personalised solutions.",
-        "ogTitle": "Merci Insurance | Insurance & Consulting in Mersin",
-        "ogDescription": "Expert insurance and consulting firm based in Mersin Erdemli, Turkey. Trusted solutions."
+        "ogTitle": "Merci Insurance | Mersin Erdemli",
+        "ogDescription": "Expert insurance firm based in Mersin Erdemli, Turkey. Trusted solutions."
     },
     "images": {
         "heroSrc": "img/img-russian-en-1.webp",
@@ -30,7 +30,7 @@
     "about": {
         "label": "About Us",
         "title": "Solution-Oriented Service Excellence",
-        "p1": "Merci Insurance & Consulting is based in Erdemli, Mersin, serving clients across all of Turkey. Our expert team provides solution-oriented support in insurance, real estate, citizenship, legal consulting, and much more.",
+        "p1": "Merci Insurance is based in Erdemli, Mersin, serving clients in Turkey and the surrounding region. Our expert team provides solution-oriented support in insurance, real estate, citizenship, legal consulting, and much more.",
         "p2": "Putting client satisfaction first, we craft personalised solutions and stand by you every step of the way.",
         "stat1Num": "5+",
         "stat1Label": "Years Experience",
@@ -83,7 +83,7 @@
         "label": "Insurance Services",
         "title": "For All Your Insurance Needs",
         "desc": "We cover all insurance needs — from vehicle and home to health and freight.",
-        "cta": "Get a Quote",
+        "cta": "Call Us",
         "types": [
             "Traffic Insurance",
             "Comprehensive Auto",
@@ -97,23 +97,14 @@
     },
     "showcase": {
         "label": "Highlighted Services",
-        "title": "Consulting & Renovation",
+        "title": "Services & Renovation",
         "card1Title": "Residency, Citizenship & Legal Services",
         "card1Desc": "We guide you through every step of residency, citizenship and legal processes in Turkey.",
         "card2Title": "Turnkey Renovation & Decoration",
         "card2Desc": "Our professional team transforms your property into your dream space — turnkey."
     },
-    "reviews": {
-        "title": "What Our Clients Say",
-        "countText": "Reviews",
-        "galleryTitle": "From Our Office",
-        "viewOnGoogle": "View on Google",
-        "lastUpdated": "Last Updated"
-    },
     "footer": {
-        "brandName": "Insurance & Consulting",
-        "location": "Erdemli, Mersin — Turkey",
-        "copyright": "© 2026 Merci Sigorta & Danışmanlık",
+        "copyright": "© 2026 Merci Sigorta",
         "developerLink": "Designed by <a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a>"
     }
 }

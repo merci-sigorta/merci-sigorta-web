@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Merci Sigorta | Mersin Erdemli Sigorta & Danışmanlık",
+        "title": "Merci Sigorta | Mersin Erdemli",
         "description": "Mersin Erdemli'de sigorta, emlak, vatandaşlık, hukuki danışmanlık ve yeminli tercümanlık hizmetleri. Alanında uzman kadromuzla yanınızdayız.",
-        "ogTitle": "Merci Sigorta | Mersin Erdemli Sigorta & Danışmanlık",
-        "ogDescription": "Mersin Erdemli merkezli uzman sigorta ve danışmanlık firması. Güvenilir çözümler."
+        "ogTitle": "Merci Sigorta | Mersin Erdemli",
+        "ogDescription": "Mersin Erdemli merkezli uzman sigorta firması. Güvenilir çözümler."
     },
     "images": {
         "heroSrc": "img/img-tr-1.webp",
@@ -30,7 +30,7 @@
     "about": {
         "label": "Hakkımızda",
         "title": "Çözüm Odaklı Hizmet Anlayışı",
-        "p1": "Merci Sigorta & Danışmanlık olarak, Mersin/Erdemli'de konumlanan ofisimizden Türkiye genelinde hizmet vermekteyiz. Uzman ekibimiz; sigorta, emlak, vatandaşlık işlemleri, hukuki danışmanlık ve daha pek çok alanda müşterilerimize çözüm odaklı destek sunmaktadır.",
+        "p1": "Merci Sigorta olarak, Mersin/Erdemli'de konumlanan ofisimizden Türkiye ve çevresinde hizmet vermekteyiz. Uzman ekibimiz; sigorta, emlak, vatandaşlık işlemleri, hukuki danışmanlık ve daha pek çok alanda müşterilerimize çözüm odaklı destek sunmaktadır.",
         "p2": "Müşteri memnuniyetini her zaman ön planda tutarak, kişiye özel çözümler üretiyor ve yanınızda oluyoruz.",
         "stat1Num": "5+",
         "stat1Label": "Yıllık Deneyim",
@@ -66,7 +66,7 @@
                 "desc": "Resmi belgelerinizin hızlı ve güvenilir yeminli çevirisi."
             },
             {
-                "title": "Finansal Danışmanlık",
+                "title": "Finansal Hizmetler",
                 "desc": "Finansal hedeflerinize ulaşmanızda profesyonel destek."
             },
             {
@@ -83,7 +83,7 @@
         "label": "Sigorta Hizmetleri",
         "title": "Tüm Sigorta İhtiyaçlarınız İçin",
         "desc": "İhtiyacınız olan tüm sigorta paketleri ile hizmetinizdeyiz — araçtan konuta, sağlıktan nakliyata kadar.",
-        "cta": "Teklif Alın",
+        "cta": "Bizi Arayın",
         "types": [
             "Trafik Sigortası",
             "Kasko",
@@ -97,23 +97,14 @@
     },
     "showcase": {
         "label": "Öne Çıkan Hizmetler",
-        "title": "Danışmanlık & Tadilat",
+        "title": "Hizmetler & Tadilat",
         "card1Title": "İkamet, Vatandaşlık & Hukuki Hizmetler",
         "card1Desc": "Türkiye'de yaşam ve vatandaşlık süreçlerinde uzman ekibimizle yanınızdayız.",
         "card2Title": "Anahtar Teslim Tadilat & Dekorasyon",
         "card2Desc": "Konutunuzu hayalinizdeki mekâna dönüştürmek için profesyonel ekibimiz hizmetinizde."
     },
-    "reviews": {
-        "title": "Müşterilerimizin Gözünden",
-        "countText": "Değerlendirme",
-        "galleryTitle": "Ofisimizden Kareler",
-        "viewOnGoogle": "Google'da Görüntüle",
-        "lastUpdated": "Son Güncelleme"
-    },
     "footer": {
-        "brandName": "Sigorta & Danışmanlık",
-        "location": "Erdemli, Mersin — Türkiye",
-        "copyright": "© 2026 Merci Sigorta & Danışmanlık",
+        "copyright": "© 2026 Merci Sigorta",
         "developerLink": "<a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a> tarafından tasarlandı."
     }
 }
